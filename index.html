@@ -1,23 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            font-family: 'Gill Sans';
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>20 projets P5JS</title>
+  <style>
+    body {
+      font-family: 'Gill Sans', sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-        }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
 
-    </style>
+    .grid-liens {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 15px;
+      padding: 20px;
+      width: 90%;
+      max-width: 1200px;
+    }
+
+    .grid-liens a img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    .grid-liens a img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .grid-liens {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .grid-liens {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>I AM TEH BESTEST</h1>
+  <h1>20 projets P5JS</h1>
 
-    <p><a href="projet1.html">clicez ici</a></p>
+  <div class="grid-liens">
+    <a href="01_projet 1/projet1.html"><img src="images/projet 1.png" alt="Projet 1"></a>
+
+    <a href="02_projet visage/projet visage.html"><img src="images/projet visage.png" alt="Projet visage"></a>
+
+    <a href="03_emoji/emoji.html"><img src="images/emoji.png" alt="Emoji"></a>
+
+    <a href="04_logo DVD/logo DVD.html"><img src="images/logo DVD.png" alt="Logo DVD"></a>
+
+    <a href="05_lapin avec des yeux qui glignent/lapin avec des yeux qui glignent.html">
+        <img src="images/lapin avec des yeux qui glignent.png" alt="Lapin avec des yeux qui glignent"></a>
+
+    <a href="06_mondrian/mondrian.html"><img src="images/mondrian.png" alt="Mondrian"></a>
+
+    <a href="07_Tunnel/Tunnel.html"><img src="images/tunnel.png" alt="Tunnel"></a>
+
+    <a href="08_Paysage fixe/Paysage fixe.html"><img src="images/paysage fixe.png" alt="Paysage fixe"></a>
+
+    <a href="09_Paysage soleil qui bouge/Paysage soleil qui bouge.html">
+        <img src="images/paysage soleil qui bouge.png" alt="Paysage soleil qui bouge"></a>
+
+    <a href="10_Plateau jeu d’échec/Plateau jeu d’échec.html">
+        <img src="images/plateau jeu d'échec.png" alt="Plateau jeu d'échec"></a>
+
+    <a href="11_Morpion/Morpion.html"><img src="images//morpion.png" alt="Morpion"></a>
+
+    <a href="12_Effet loupe/Effet loupe.html"><img src="images/effet loupe.png" alt="Effet loupe"></a>
+
+    <a href="13_Dégradé animation/Dégradé animation.html">
+        <img src="images/dégradé animation.png" alt="Dégradé animation"></a>
+
+    <a href="14_Grille interactive/Grille interactive.html">
+        <img src="images/grille interactive.png" alt="Grille interactive"></a>
+
+    <a href="15_Emoji qui suit du regard/Emoji qui suit du regard.html">
+        <img src="images/emoji qui suit du regard.png" alt="Image 15"></a>
+
+    <a href="16_Casse briques/Casse briques.html"><img src="images//casse brique.png" alt="Casse brique"></a>
+
+    <a href="17_Pendule tournant/Pendule tournant.html">
+        <img src="images/pendule tournant.png" alt="Pendule tournant"></a>
+
+    <a href="18_Grille de points/Grille de points.html"><img src="images/grille de points.png" alt="Image 18"></a>
+    
+    <a href="19_Balle qui change de couleur/Balle qui change de couleur.html">
+        <img src="images/balle qui change de couleur.png" alt="balle qui change de couleur"></a>
+
+    <a href="20_Tetris/Tetris.html"><img src="images/tetris.png" alt="Tetris"></a>
+  </div>
 </body>
 </html>
+
+  
