@@ -14,3 +14,4 @@ function draw() {
 
 function keyPressed(){
   if( key =="s"){save("drawing.png");}}
+  
