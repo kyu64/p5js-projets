@@ -1,0 +1,16 @@
+
+body{
+    /* background-color: black; */
+}
+
+body:has(canvas){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 67vh;
+}
+
+canvas {
+    /* outline: 8px solid green; */
+}
